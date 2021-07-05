@@ -17,6 +17,7 @@ let mySprite = sprites.create(img`
     . . . . 4 4 4 4 4 4 4 . . . . . 
     . . . . . . . . . . . . . . . . 
     `, SpriteKind.Player)
+mySprite.setPosition(136, 13)
 controller.moveSprite(mySprite)
 let mySprite_2 = sprites.create(img`
     . . . . . . . . . . . . . . . . 
